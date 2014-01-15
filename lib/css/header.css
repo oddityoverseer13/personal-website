@@ -1,0 +1,39 @@
+/*==Header styles==*/
+#header{
+   /*background-image: url(img/header-bg.png);*/
+   background-repeat: repeat;
+   text-align: left;
+}
+#header .title{
+   margin: 20px;
+   margin-left: 5px;
+}
+#header img, #header a{
+   vertical-align: middle;
+}
+
+/*==Navigation Buttons==*/
+#NavButtons{
+   border-bottom: 3px solid #600;
+   /*background-image: url(img/nav-bg.png);*/
+   background-repeat: repeat-x;
+}
+.NavBtn{
+   font-size: 2em; color: #600;
+   padding-left: 7px; padding-right: 7px;
+   text-decoration: none; display:inline;
+
+}
+.NavBtn:hover{
+   color: #0BB;
+}
+
+#NavButtons a.current,
+#NavButtons a.current:hover{
+   /*color:#000;*/
+   border-bottom: 5px solid #600;
+   cursor:default;
+}
+#NavButtons a.current:hover{
+   color:#600;
+}

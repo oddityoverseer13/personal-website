@@ -1,0 +1,146 @@
+/*==General Styles==*/
+body  {
+   font: 100% Garamond, Verdana, Arial, Helvetica, sans-serif;
+   background: #333;
+   background-image: url(img/cartographer/cartographer.png);
+   margin: 0;
+   padding: 0;   text-align: justify;
+   color: #000; width: 100%;
+   height: auto;
+   font-size: 1em;
+}
+
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	background-color: #FFF;
+   background-image: url(img/cross_scratches/cross_scratches.png);
+	padding: 10px;
+}
+
+/*==Header==*/
+#headerContainer {
+   width:100%;
+   height: auto;
+   border: none;
+}
+
+
+/*==Home Styles==*/
+#mainContent{
+   margin: 2%;
+   font-size: 1.1em;
+}
+
+#mainContent .bigBtns {
+   width: 49%;
+   margin-top: 3px;
+   margin-bottom: 3px;
+}
+
+/*==Gallery Styles==*/
+#gallerySelecter{
+   text-align: center;
+   width:100%;
+}
+
+#gallerySelecter table{
+   margin-left:auto;
+   margin-right:auto;
+   text-align:left;
+}
+
+
+#gallerySelecter td{
+   width: 50%;
+}
+
+#gallerySelecter div{
+   width: 550px;
+   margin-bottom: 10px;
+}
+
+#gallerySelecter h1{
+   text-align:center;
+   vertical-align:bottom;
+   
+}
+#gallerySelecter img{
+   margin:0px; height:100px;
+   padding:0px; display:inline;
+   border: 0px;
+}
+
+
+.article_img{
+   max-width: 30%;
+   max-height: 300px;
+   margin: 10 20 10 20 ;
+}
+
+#sketchup_vignette img {
+   height: 150px;
+}
+#sketchup_plans img {
+   height:300px;
+}
+
+/*==Code Repo Styles==*/
+.codebox {
+   border: 1px solid black;
+   padding: 2px;
+   margin: 10px 10px 10px 5px;
+   background-color: #600;
+   color: white;
+}
+
+.codebox a{
+   color:#0BB;
+}
+
+.codebox p {
+   text-align:justify;
+   padding: 5px;
+}
+.codebox .titleline {
+   background-color: #0BB;
+   color: #600;
+   padding: 0 0 0 5;
+}
+.codebox img{
+   padding: 5px;
+}
+.codebox .codestat {
+   font-size: 1.2em;
+   font-weight: bold;
+   padding-right: 5px;
+}
+
+.codebox .download img{
+   vertical-align: middle;
+}
+
+/*==Other Misc Formatting==*/
+.blue {
+   background-color: #0BB; color: #700;
+   border: 2px solid #0EE;
+}
+.red {
+   background-color: #700; color: #0BB;
+   border: 2px solid #B00;
+}
+
+.red:hover{
+   background-color: #0BB;
+   color: #700;
+   border: 2px solid #0DD;
+   cursor: pointer;
+}
+
+.Btn {
+   border: 1px solid black;
+   width: 100px;
+   height: 40px;
+   margin: 2px;
+}
