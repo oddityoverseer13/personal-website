@@ -15,14 +15,13 @@
 		<link rel="stylesheet" type="text/css" href="lib/css/main.css" />
 		<link rel="stylesheet" type="text/css" href="lib/css/header.css" />
 		<link rel="stylesheet" type="text/css" href="lib/css/footer.css" />
-
 		<script>
 			$('document').ready(function(){
 				$("#headerContainer").load(
 					'lib/html/header.html',
 					null,
 					function() {
-						$("#NavBtnAbout").addClass( "current" ).click(function(e){
+						$("#NavBtnPortfolio").addClass( "current" ).click(function(e){
 							e.preventDefault();
 						});
 					}
@@ -37,16 +36,12 @@
 		<div id="container">
 			<div id='headerContainer'/></div>
 			<div id="mainContent">
-				<p>
-				Hi! My name is Derek, but you probably already know that
-				considering my name is in the header. A few things you might not
-				already know about me are: I am a student and employee of The
-				University of Colorado at Boulder, a web designer,
-				software developer, Unix/Linux admin, cartographer,
-				mobile app developer, technical documentation writer, genealogist,
-				and many other things.
-				</p>
-				
+				<ul>
+					<li>
+						<p class='title'>University of Colorado Campus Map</p>
+					</li>
+					<li>OIT</li>
+				</ul>
 			</div>
 			<div id='footerContainer'/></div>
 		</div>
