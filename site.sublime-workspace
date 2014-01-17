@@ -259,17 +259,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "---\nlayout: default\ntitle: Your New Jekyll Site\n---\n\n<div id=\"home\">\n  <p>\n	Hi! My name is Derek, but you probably already know that\n	considering my name is in the header. A few things you might not\n	already know about me are: I am a student and employee of The\n	University of Colorado at Boulder, a web designer,\n	software developer, Unix/Linux admin, cartographer,\n	mobile app developer, technical documentation writer, genealogist,\n	and many other things.\n	</p>\n  <h1>Blog Posts</h1>\n  <ul class=\"posts\">\n    {% for post in site.posts %}\n      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href=\"{{ post.url }}\">{{ post.title }}</a></li>\n    {% endfor %}\n  </ul>\n</div>",
-			"file": "index.html",
-			"file_size": 291,
-			"file_write_time": 130344506744228126,
-			"settings":
-			{
-				"buffer_size": 687,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -298,7 +287,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 472.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -319,6 +308,28 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Derek/Dropbox/Personal/website/blog.html",
+		"/C/Users/Derek/Dropbox/Personal/website/projects.html",
+		"/C/Users/Derek/Dropbox/Personal/website/index.html",
+		"/C/Users/Derek/Dropbox/Personal/website/.gitignore",
+		"/C/Users/Derek/Dropbox/Personal/website/css/main.css",
+		"/C/Users/Derek/Dropbox/Personal/website/_includes/header.html",
+		"/C/Users/Derek/Dropbox/Personal/website/_config.yml",
+		"/C/Users/Derek/Dropbox/Personal/website/attribution.html",
+		"/C/Users/Derek/Dropbox/Personal/website/_site/css/main.css",
+		"/C/Users/Derek/Dropbox/Personal/website/_site/attribution.liquid",
+		"/C/Users/Derek/Dropbox/Personal/website/notes.txt",
+		"/C/Users/Derek/Dropbox/Personal/website/_layouts/default.html",
+		"/C/Users/Derek/Dropbox/Personal/website/_includes/footer.html",
+		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek-ng/index.html",
+		"/C/Users/Derek/Dropbox/Personal/website/css/global.css",
+		"/C/Users/Derek/Dropbox/Personal/website/css/header.css",
+		"/C/Users/Derek/Dropbox/Personal/website/css/footer.css",
+		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek-ng/lib/html/header.html",
+		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek-ng/lib/html/footer.html",
+		"/C/Users/Derek/Dropbox/Personal/website/site.sublime-project",
+		"/C/Users/Derek/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Derek/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Python33/README.txt",
 		"/C/Ruby200-x64/devkit/config.yml",
 		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek-ng/portfolio.html",
@@ -329,8 +340,6 @@
 		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek/index.html",
 		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek-ng/lib/js/javascript.js",
 		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek-ng/attribution.html",
-		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek-ng/lib/html/header.html",
-		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek-ng/lib/html/footer.html",
 		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek-ng/lib/css/img/cross_scratches/readme.txt",
 		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek-ng/lib/css/header.css",
 		"/C/Users/Derek/Dropbox/Personal/kniffin-wwwroot/derek-ng/d2tt5lst.bms.txt",
@@ -426,31 +435,11 @@
 		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/static_pages/home.html.erb",
 		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/db/migrate/20131120165452_create_births.rb",
 		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/models.txt",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/helpers/people_helper.rb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/people/index.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/layouts/_admin_sidebar.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/layouts/_navigation_dropdown.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/layouts/application.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/layouts/_account_dropdown.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/layouts/_header.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/assets/stylesheets/people.css.scss",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/admin/look_and_feel.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/places/index.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/places/index.json.jbuilder",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/config/routes.rb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/places/edit.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/places/show.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/users/show.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/assets/stylesheets/application.css",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/config/initializers/default_settings.rb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/users/edit.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/assets/javascripts/admin.js.coffee",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/views/users/new.html.erb",
-		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/db/migrate/20131116054144_add_role_to_users.rb"
+		"/C/Users/Derek/Dropbox/School - Derek/Software Methods and Tools/Final Project/kinship/app/helpers/people_helper.rb"
 	],
 	"find":
 	{
-		"height": 21.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -620,37 +609,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 687,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								464,
-								76
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -729,7 +689,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 351.0,
 	"status_bar_visible": true,
 	"template_settings":

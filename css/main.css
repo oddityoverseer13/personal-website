@@ -47,6 +47,10 @@ a img{
 .small {
    font-size: 0.8em;
 }
+.meta {
+   font-size: 0.8em;
+   color: #600;
+}
 
 hr {
    border-right: none; border-left: none;
