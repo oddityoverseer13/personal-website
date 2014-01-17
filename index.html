@@ -1,0 +1,22 @@
+---
+layout: default
+title: Home
+---
+
+<div id="home">
+  <p>
+  Hi! My name is Derek, but you probably already know that
+  considering my name is in the header. A few things you might not
+  already know about me are: I am a student and employee of The
+  University of Colorado at Boulder, a web designer,
+  software developer, Unix/Linux admin, cartographer,
+  mobile app developer, technical documentation writer, genealogist,
+  and many other things.
+  </p>
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
