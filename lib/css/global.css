@@ -33,3 +33,26 @@ hr {
    border-top: 2px solid #600; border-bottom: 2px solid #600;
    height: 7px; margin: 3%;
 }
+
+.largeBtn {
+   width: 100%; 
+   border: 1px solid black; 
+   padding: 5px;
+   color: #600;
+   margin: 5px;
+}
+.largeBtn:hover {
+   background-color: #600;
+   color: #0BB;
+}
+
+.largeBtn .title {
+   margin-right: 5px;
+   font-size: 2em;
+   vertical-align: middle;
+   text-decoration: underline;
+}
+
+.on-hold {
+   color: #999;
+}
