@@ -113,13 +113,13 @@ hr {
    color: #0BB;
 }
 
-#NavButtons a.current,
-#NavButtons a.current:hover{
+a.active,
+a.active:hover{
    /*color:#000;*/
    border-bottom: 5px solid #600;
    cursor:default;
 }
-#NavButtons a.current:hover{
+a.active:hover{
    color:#600;
 }
 
