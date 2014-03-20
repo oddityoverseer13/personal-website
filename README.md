@@ -1,6 +1,9 @@
-Git repo
-========
-Make sure after the initial git clone, you also do a `git submodule init`, and `git submodule update`.
+Pre-build steps
+===============
+Make sure after the initial git clone, you also do the following:
+ - `git submodule init`
+ - `git submodule update`
+ - `bundle install`
 
 Build
 =====
