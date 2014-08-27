@@ -1,6 +1,3 @@
-[submodule "map"]
-	path = map
-	url = https://github.com/CuBoulder/site_map.git
 [submodule "_plugins/aucor-jekll-plugins"]
-	path = _plugins/aucor-jekll-plugins
+	path = _plugins/aucor-jekyll-plugins
 	url = https://github.com/aucor/jekyll-plugins.git
