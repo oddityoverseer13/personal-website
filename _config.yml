@@ -1,5 +1,5 @@
-name: Your New Jekyll Site
-url: http://wheatley.int.colorado.edu/personal-website/
+name: Derek Kniffin's Personal Website
+url: http://wheatley.int.colorado.edu/personal-website
 markdown: redcarpet
 pygments: true
 exclude: [notes]
