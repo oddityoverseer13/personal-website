@@ -1,5 +1,5 @@
 name: Your New Jekyll Site
-url: http://wheatley.int.colorado.edu/personal-website/_site
+url: http://wheatley.int.colorado.edu/personal-website/
 markdown: redcarpet
 pygments: true
 exclude: [notes]
