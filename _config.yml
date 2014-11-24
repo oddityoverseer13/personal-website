@@ -1,5 +1,16 @@
 name: Derek Kniffin's Personal Website
 url: http://www.kniffin.us/derek
+#url: http://wheatley.int.colorado.edu/personal-website
 markdown: redcarpet
 pygments: true
 exclude: [notes]
+
+# Glynn configs (deployment)
+# to deploy, simply run `glynn` on the cmd line
+ftp_host: 'kniffin.us'
+ftp_dir: '/public_html/derek'
+ftp_passive: false
+
+# optional
+ftp_port: 21
+ftp_username: 'derek@kniffin.us'
