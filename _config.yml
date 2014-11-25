@@ -1,6 +1,6 @@
 name: Derek Kniffin's Personal Website
-url: http://www.kniffin.us/derek
-#url: http://wheatley.int.colorado.edu/personal-website
+#url: http://www.kniffin.us/derek
+url: http://wheatley.int.colorado.edu/personal-website
 markdown: redcarpet
 pygments: true
 exclude: [notes]
