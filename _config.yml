@@ -1,8 +1,11 @@
-name: Derek Kniffin's Personal Website
-url: http://www.kniffin.us/derek
+name: Derek Kniffin
+#url: http://www.kniffin.us/derek
 #url: http://wheatley.int.colorado.edu/personal-website
+
+url: http://localhost:4000/
+
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 exclude: [notes]
 
 # Glynn configs (deployment)

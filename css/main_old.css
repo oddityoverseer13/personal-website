@@ -7,7 +7,7 @@
 
 /*==General Styles==*/
 body  {
-   font: 100% Questrial, Arial, Helvetica, sans-serif;
+   font: 100% Garamond, Verdana, Arial, Helvetica, sans-serif;
    background: #333;
    background-image: url(img/cartographer/cartographer.png);
    margin: 0;
@@ -75,6 +75,12 @@ hr {
 }
 
 /*==Header styles==*/
+#headerContainer {
+   width:100%;
+   height: auto;
+   border: none;
+}
+
 #header{
    /*background-image: url(img/header-bg.png);*/
    background-repeat: repeat;

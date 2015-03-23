@@ -1,7 +1,9 @@
 <div id='header'>
-	<a href="index.html">
-		<img src="{{site.url}}/css/img/title.png" class="title" />
+	<a class="title" href="index.html">
+		Derek Kniffin
+		<!--<img src="{{site.url}}/css/img/title.png" class="title" />-->
 	</a>
+
 	<div id="NavButtons">
     {% for p in site.weighted_pages %}
       {% if p.header == true %}
@@ -9,4 +11,5 @@
       {% endif %}
     {% endfor %}
 	</div>
+	  <img src="{{site.url}}/css/img/topsail_pier_2.jpg" id='bannerImg' />
 </div>
