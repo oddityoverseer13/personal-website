@@ -1,141 +1,133 @@
+/*== Fonts ==*/
 @font-face {
    font-family: 'Questrial';
    font-style: normal;
    font-weight: normal;
-   src: url(Questrial-Regular.otf) format("opentype");
+   src: url(fonts/Questrial-Regular.otf) format("opentype");
+}
+@font-face {
+   font-family: 'Daniel';
+   font-style: normal;
+   font-weight: normal;
+   src: url(fonts/daniel.ttf) format('truetype');
+}
+@font-face {
+   font-family: 'Jellyka CuttyCupcakes';
+   font-style: normal;
+   font-weight: normal;
+   src: url(fonts/jellyka-cuttycupcakes.ttf) format('truetype');
+   perspective: 1px;
 }
 
 /*==General Styles==*/
 body  {
-   font: 100% Questrial, Arial, Helvetica, sans-serif;
-   background: #333;
+   background: #222;
    background-image: url(img/cartographer/cartographer.png);
-   margin: 0;
-   padding: 0;   text-align: justify;
-   color: #000; width: 100%;
-   height: auto;
-   font-size: 1em;
+   background-position: fixed;
+
+   margin: 0; padding: 0; width: 100%;
+
+   text-align: justify;
+   font: 100% Questrial, Arial, Helvetica, sans-serif;
+   color: #000;
+
+   background: url(img/topsail_pier_1.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
-#main {
-   font-size: 1.3em;
+#content{
    padding-left: 30px;
    padding-right: 30px;
-}
-
-#container{
+   font-size: 1.3em;
 	margin-left: auto;
 	margin-right: auto;
-	width: 900px;
+	width: 65%;
+   opacity: 0.8;
 	background-color: #FFF;
    background-image: url(img/cross_scratches/cross_scratches.png);
-	/*padding: 20px;*/
+	padding: 15px;
 }
 a {
-   color: #0BB;
-}
-a img{
-   border: none;
-}
-
-.fltlft{
-   float:left;
-}
-
-.fltrt{
-   float:right;
+   color: #68D;
 }
 
 .clearfloat{
    clear:both;
 }
 
-.half {
-   width:49%;
+/*== Footer ==*/
+#footer {
+   font-size: 0.7em;
 }
-
-.round {
-   border-radius: 10px;
+#footer p {
+   padding: 0px;
 }
-.small {
+#footer .attribution {
    font-size: 0.8em;
 }
-.meta {
-   font-size: 0.8em;
-   color: #600;
-}
 
-hr {
+#footer hr {
    border-right: none; border-left: none;
-   border-top: 2px solid #600; border-bottom: 2px solid #600;
-   height: 7px; margin: 3%;
+   border-top: 1px solid #000; border-bottom: 1px solid #000;
+   height: 3px; margin: 5px;
 }
 
 .on-hold {
    color: #999;
 }
 
-/*==Header styles==*/
-#header{
-   /*background-image: url(img/header-bg.png);*/
-   background-repeat: repeat;
-   text-align: left;
-}
-#header .title{
-   width: 900px;
-   margin: 20px;
-   margin-top: 20px;
-   margin-bottom: 20px;
+/*== Banner ==*/
 
-   font-size: 60px;
-   color: #000;
-   text-decoration: none;
-   font-family: 'Questrial';
+#banner {
+   width: 100%;
+   height: 100vh; /* vh == vertical height of browser window */
+
+
+   -webkit-filter: grayscale(1);
+
+   text-align: center;
+   display: table;
 }
-#header img, #header a{
+#banner #titleset {
+   display: table-cell;
    vertical-align: middle;
-}
-#header #bannerImg {
-   width: 900px;
-   margin-top: 0px;
-   border-bottom:5px solid #600;
-}
+   margin-top: auto;
+   margin-bottom: auto;
 
-/*==Navigation Buttons==*/
-#NavButtons{
-   border-bottom: 3px solid #600;
-   border-top: 3px solid #600;
-   /*background-image: url(img/nav-bg.png);*/
-   background-repeat: repeat-x;
-   margin-top: 20px;
-}
-.NavBtn{
-   font-size: 2em; color: #600;
-   padding-left: 10px; padding-right: 10px;
-   height: 50px;
-   text-decoration: none; display:inline-block;
-   vertical-align: middle;
-
-   font-family: 'Questrial';
-}
-.NavBtn:hover{
-   color: #000;
-   background-color: #600;
-}
-
-a.active,
-a.active:hover{
-   /*color:#000;*/
-   /*border-bottom: 5px solid #600;*/
-   background-color: #600;
    color: #FFF;
-   cursor:default;
 }
+#banner .title {
+   display: inline-block;
+   margin: 0px;
+   vertical-align: middle;
 
+   font-size: 6em;
+   text-decoration: none;
+   /*font-family: 'Jellyka CuttyCupcakes';*/
+}
+#banner .subtitle {
+   font-size: 3em;
+   font-family: 'Questrial';
+   margin-top: 0;
+   margin-bottom: 0;
+}
+#banner .quote {
+   font-size: 1.3em;
+   font-family: 'Garamond';
+   font-weight: lighter;
+   font-style: italic;
+}
 
 /*==Home Styles==*/
+.home #banner .title, .name {
+   font-family: 'Daniel';
+}
 #hi {
-   font-size: 4em;
-   color: #600;
+   font-size: 3em;
+   color: #000;
+   display: block;
 }
 
 /*==Other Misc Formatting==*/

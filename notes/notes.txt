@@ -1,32 +1,5 @@
-Links
-- About Me (Home)
- - Photo
- - Blurb
-<p>
-Hi! My name is Derek, but you probably already know that
-considering my name is in the header. A few things you might not
-already know about me are: I am a student and employee of The
-University of Colorado at Boulder, a web designer,
-software developer, Unix/Linux admin, cartographer,
-mobile app developer, technical documentation writer, genealogist,
-and many other things.
-</p>
- - Link to Github profile
- - Linke to Facebook
- - Link to LinkedIn
-- Portfolio 
- - Include only the best projects, finished projects here
- - A Gallery or list of links and photos
- - Each finished project has it's own page
-   - University of Colorado Boulder Campus Map
-   - Mention OIT work
-- Current Projects
-  - Berries
-  - Kinship
-- Interests
- - OpenStreetMap
-  - Stats
- - Geocaching
-  - Stats
- - Gaming
-  - Xbox gamerscore
+Design elements:
+- Fixed header
+- Set of pictures (one for each page) with common theme (black and white?)
+- Elevator pitch over picture
+ - Developer.
