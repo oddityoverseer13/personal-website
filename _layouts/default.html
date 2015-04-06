@@ -18,12 +18,24 @@
         </script>
 
 
+        <link rel="stylesheet" href="{{site.url}}/css/slicknav.css">
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="{{site.url}}/css/syntax.css">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{site.url}}/css/main.css">
         <link rel="stylesheet" href="{{site.url}}/css/nav.css">
+
+
+        <script src="{{site.url}}/js/jquery-1.11.2.min.js"></script>
+        <script src="{{site.url}}/js/jquery.slicknav.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          $('#menu').slicknav({
+            label: ""
+          });
+        })
+        </script>
 
     </head>
     <body>

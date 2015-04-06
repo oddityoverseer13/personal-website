@@ -1,17 +1,13 @@
 <div class="navigation">
-	<input type="checkbox" id="menu">
-	<label for="menu">&#8801</label>
-	<nav role="off-canvas">
-		<ul>
-			{% for p in site.weighted_pages %}
-			{% if p.nav_text != nil %}
-			<li class="nav-item{% if p.url == page.url %} active{% endif %}">
-				<a href="{{ site.url }}{{ p.url }}">{{ p.nav_text }}</a>
-			</li>
-			{% endif %}
-			{% endfor %}
-		</ul>
-	</nav>
+	<ul id='menu'>
+		{% for p in site.weighted_pages %}
+		{% if p.nav_text != nil %}
+		<li class="nav-item{% if p.url == page.url %} active{% endif %}">
+			<a href="{{ site.url }}{{ p.url }}">{{ p.nav_text }}</a>
+		</li>
+		{% endif %}
+		{% endfor %}
+	</ul>
 </div>
 <div class='clearfloat'></div>
 <div id='banner'>

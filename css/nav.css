@@ -28,43 +28,36 @@
 /* Responsive styles */
 .navigation label {
    position: absolute;
-   right: 0;
+   top: 0; right: 0;
    display: none;
    padding: 5px 10px 5px 10px;
    color: #FFF;
    font-size: 1.5em;
    background-color: #555;
+   position: absolute;
 }
 .navigation input[type=checkbox] {
    display: none;
+   right: -20em;
 }
 
-@media screen and (max-width: 44em) {
-   body {
-      overflow-x: hidden;
-   }
+.slicknav_menu{
+   display: none;
+   background: none;
+   float:right;
+}
 
-   .navigation nav {
-      position: absolute;
-      transition: 1s;
-      right: -20em;
-      width: 20em;
+.slicknav_btn {
+   padding: 1em;
+}
+.slicknav_nav {
+   float: right;
+}
+@media screen and (max-width: 45em) {
+   #menu {
+      display: none;
    }
-
-   .navigation label {
+   .slicknav_menu {
       display: block;
-      position: absolute;
-      top: 0; right: 0;
-   }
-
-   .navigation input:checked ~ nav {
-      transition: 1s;
-      right: 0;
-   }
-
-   .navigation input:checked ~ .content {
-      transition: 1s;
-      margin-left: 20.5em ;
-      margin-right: -20.5;
    }
 }
