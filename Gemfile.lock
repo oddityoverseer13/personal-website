@@ -14,7 +14,11 @@ GEM
     execjs (2.2.2)
     fast-stemmer (1.0.2)
     ffi (1.9.8)
+    ffi (1.9.8-x86-mingw32)
+    glynn (1.1.0)
+      jekyll
     hitimes (1.2.2)
+    hitimes (1.2.2-x86-mingw32)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -60,6 +64,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.2)
+    rouge (1.8.0)
     safe_yaml (1.0.4)
     sass (3.4.10)
     text-hyphen (1.4.1)
@@ -68,12 +73,15 @@ GEM
     toml (0.1.2)
       parslet (~> 1.5.0)
     yajl-ruby (1.1.0)
+    yajl-ruby (1.1.0-x86-mingw32)
 
 PLATFORMS
   ruby
   x86-mingw32
 
 DEPENDENCIES
-  jekyll (~> 2.5.3)
-  nokogiri (~> 1.6.6.2)
-  text-hyphen (~> 1.4.1)
+  glynn
+  jekyll
+  nokogiri
+  rouge
+  text-hyphen

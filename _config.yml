@@ -1,11 +1,11 @@
 name: Derek Kniffin
-#url: http://www.kniffin.us/derek
-url: http://wheatley.int.colorado.edu/personal-website
-# url: http://localhost:4000/
+url: http://kniffin.us/derek-stage
+# url: http://wheatley.int.colorado.edu/personal-website
+# url: http://localhost:4000
 
 markdown: redcarpet
-highlighter: pygments
-exclude: [notes]
+highlighter: rouge
+exclude: [notes,Gemfile,Gemfile.lock,README.md,site.sublime-workspace]
 
 # Glynn configs (deployment)
 # to deploy, simply run `glynn` on the cmd line

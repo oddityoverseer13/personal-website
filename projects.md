@@ -14,7 +14,7 @@ weight: 2
 
 ## In Progress
 
-- Bing housenumber detection - For my CS senior project, I'm working with a group of developers, and with the Bing imagery team, to develop a solution to extract interesting features (such as house numbers, or un-blurred faces) from Bing Streetside images. Unfortunately, we're not far enough along for a demo of the project to be available, so no link on this one, yet.
+- Bing house number detection - For my CS senior project, I'm working with a group of developers, and with the Bing imagery team, to develop a solution to extract interesting features (such as house numbers, or un-blurred faces) from Bing Streetside images. Unfortunately, we're not far enough along for a demo of the project to be available, so no link on this one, yet.
 - Webtrees theme - I've realized through more interaction with Webtrees, my biggest problems with it are UI/CSS and lack of a few desired features. So, I've decided to work on a theme and some plugins for it.
 - [Zmby](https://github.com/oddityoverseer13/zmby) - In my Object Oriented Analysis and Design class, we're tasked with creating a project that allows us to practice our design and programming skills. My group has decided on creating a text-based game, powered by Ruby. If we get far enough along, we will consider hosting it in a Rails site, but we wanted to start with less complexity.
 
