@@ -44,9 +44,8 @@ body  {
 	margin-left: auto;
 	margin-right: auto;
 	width: 65%;
-   opacity: 0.8;
-	background-color: #FFF;
-   background-image: url(img/cross_scratches/cross_scratches.png);
+	background-color: rgba(255,255,255,0.9);
+   /*background-image: url(img/cross_scratches/cross_scratches.png);*/
 	padding: 15px;
 }
 a {
@@ -198,6 +197,22 @@ a {
    font-size: 3em;
    color: #000;
    display: block;
+}
+
+/*== Projects ==*/
+#projectBtnContainer {
+   width: 100%;
+   text-align: center;
+}
+.projectBtn {
+   border: 1px solid black;
+   height: 150px;
+   width: 250px;
+   border-radius: 5px;
+   background: #FFF;
+   margin: 5px;
+    text-align:left;
+   display: inline-block;
 }
 
 /*==Other Misc Formatting==*/
