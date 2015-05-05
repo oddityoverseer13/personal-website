@@ -1,7 +1,7 @@
 name: Derek Kniffin
 # url: http://kniffin.us/derek
-# url: http://wheatley.int.colorado.edu/personal-website
-url: http://localhost:4000
+url: http://wheatley.int.colorado.edu/personal-website
+# url: http://localhost:4000
 
 markdown: redcarpet
 highlighter: rouge

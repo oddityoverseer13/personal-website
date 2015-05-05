@@ -73,6 +73,13 @@ a {
    height: 3px; margin: 5px;
 }
 
+#footer .contact-icon {
+  font-size: 2.0em;
+  color: black;
+}
+
+
+
 .on-hold {
    color: #999;
 }
